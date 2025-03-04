@@ -1,9 +1,9 @@
 # zomato_Restaurant_Survivor
 
-# Restaurant Rating Prediction Case Study
-This project aims to predict the future rating of restaurants on Zomato using data mining techniques. The goal is to help Zomato decide whether to include or remove a restaurant from their app based on its predicted performance.
+## Restaurant Rating Prediction
+This project predicts the future rating of restaurants on Zomato using data mining techniques. The goal is to help Zomato decide whether to include or remove a restaurant from their app based on its predicted performance.
 
-Table of Contents
+### Table of Contents
 Problem Statement
 
 Approach
@@ -20,12 +20,10 @@ Contributing
 
 License
 
-Problem Statement
-Zomato, the online food delivery platform, wants to predict the future rating of restaurants to make informed decisions about onboarding or removing them from their app. This project uses data mining techniques to build a predictive model for restaurant ratings.
+# Problem Statement
+Zomato wants to predict the future rating of restaurants to make informed decisions about onboarding or removing them from their app. This project uses data mining techniques to build a predictive model for restaurant ratings.
 
 Approach
-Data Collection: Use a dataset containing restaurant details such as location, cuisine, cost, and ratings.
-
 Data Preprocessing: Handle missing values, encode categorical variables, and normalize numerical features.
 
 Exploratory Data Analysis (EDA): Analyze data distributions and correlations.
@@ -36,10 +34,8 @@ Model Training: Use machine learning algorithms (e.g., Random Forest) to predict
 
 Model Evaluation: Evaluate the model using RMSE and R² score.
 
-Deployment: Deploy the model to predict ratings for new restaurants.
-
-Dataset
-The dataset used in this project contains the following features:
+## Dataset
+The dataset contains the following features:
 
 Restaurant ID: Unique identifier for each restaurant.
 
@@ -57,9 +53,9 @@ Votes: Number of reviews.
 
 Aggregate Rating: Target variable (rating of the restaurant).
 
-Download the dataset from here or use your own dataset.
+Download the dataset from Kaggle.
 
-Installation
+### Installation
 Clone the repository:
 
 bash
@@ -78,12 +74,12 @@ Run the Jupyter Notebook or Python script:
 
 bash
 Copy
-jupyter notebook Restaurant_Rating_Prediction.ipynb
+jupyter notebook notebooks/Restaurant_Rating_Prediction.ipynb
 or
 
 bash
 Copy
-python restaurant_rating_prediction.py
+python scripts/restaurant_rating_prediction.py
 The script will preprocess the data, train the model, and evaluate its performance.
 
 Results
@@ -123,25 +119,3 @@ Acknowledgments
 Dataset sourced from Kaggle.
 
 Inspired by real-world use cases in the food delivery industry.
-
-Contact
-For questions or feedback, feel free to reach out:
-
-Your Name
-
-Email: your.email@example.com
-
-GitHub: your-username
-
-Repository Structure
-Copy
-restaurant-rating-prediction/
-├── data/
-│   └── zomato.csv                # Dataset
-├── notebooks/
-│   └── Restaurant_Rating_Prediction.ipynb  # Jupyter Notebook
-├── scripts/
-│   └── restaurant_rating_prediction.py     # Python Script
-├── README.md                     # Project documentation
-├── requirements.txt              # Required libraries
-└── LICENSE                       # License file
